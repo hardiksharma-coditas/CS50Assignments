@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(0, 140, 255, 0.324);
+}
+.container {
+    /* background-color: rgba(30, 143, 255, 0.662); */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container .container-heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.container .container-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    position: relative;
+    bottom: 5px;
+    left: 300px;
+
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    background-color:rgba(0, 140, 255, 0.162); 
+    
+}
+
+.card{
+    height: 380px;
+    width: 300px;
+    margin: 10px;
+}

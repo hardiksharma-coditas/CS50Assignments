@@ -1,0 +1,63 @@
+body{
+    background-color: rgba(0, 140, 255, 0.324);
+}
+.container {
+    /* background-color: rgba(30, 143, 255, 0.662); */
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+.aboutMe-container{
+    margin-top: 10vh;
+    height: 80vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.aboutMe-container .aboutMe-container-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutMe-container .aboutMe-container-left img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.aboutMe-container .aboutMe-container-right {
+display: grid;
+grid-template-columns: 10% 30%;
+align-items: center;
+height: 75%;
+padding-top: 30px;
+/* justify-content: center; */
+}
+
+.aboutMe-container .aboutMe-container-right img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+}
+.navbar{
+    position: relative;
+    bottom: 45px;
+    left: 300px;
+
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    background-color:rgba(0, 140, 255, 0.162); 
+    
+}
